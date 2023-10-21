@@ -32,3 +32,13 @@ Emitted 'error' event on ChildProcess instance at:
   spawnargs: [ 'http://localhost:5173/' ]
 }
 ```
+
+## Resolution
+
+Vite does not have proper rights from inside the Docker Container.
+
+As a solution, with a second command the URL can be opened in the browser:
+
+```bash
+open http://localhost:5173
+```
