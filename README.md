@@ -1,5 +1,7 @@
 # Vite does not open the browser in Docker environment
 
+Issue: https://github.com/vitejs/vite/issues/14720
+
 I would like to run both, backend and frontend in Docker.
 
 Vite should open the server in the browser automatically.
