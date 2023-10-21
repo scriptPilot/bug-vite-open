@@ -1,0 +1,12 @@
+services:
+
+  node:
+    container_name: node
+    image: node:lts
+    working_dir: /var/www/html
+    entrypoint: /bin/bash
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./:/var/www/html
+    tty: true
