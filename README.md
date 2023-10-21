@@ -35,7 +35,7 @@ Emitted 'error' event on ChildProcess instance at:
 
 ## Resolution
 
-Vite does not have proper rights from inside the Docker Container.
+Vite does not have proper rights from inside the Docker container.
 
 As a solution, with a second command the URL can be opened in the browser:
 
