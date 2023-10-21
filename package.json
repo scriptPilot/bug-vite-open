@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev:direct": "rm -r -f node_modules && npm i && npx vite --open",
-    "dev:docker": "rm -r -f node_modules && docker compose up -d && docker exec -it node npm i && open http://localhost:5173 && docker exec -it node npx vite --host --open"
+    "dev:docker": "rm -r -f node_modules && docker compose up -d && docker exec -it node npm i && open http://localhost:5173 && docker exec -it node npx vite --host"
   },
   "dependencies": {
     "vite": "^4.5.0"
